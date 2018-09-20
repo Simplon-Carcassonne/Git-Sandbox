@@ -14,6 +14,7 @@ Dépôt pour les activités liés à l'apprentissage de GIT
 
 ## Exercice 4 : Same File Conflict
  - Créer chacun un fichier contact.html dans le répertoire parent de votre dossier binôme 
+ 
       - Le premier <strong>à envoyer ses modifications</strong> a gagné !! 
       - Résoudre le conflit 
   
