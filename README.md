@@ -16,7 +16,14 @@ Dépôt pour les activités liés à l'apprentissage de GIT
  - Créer chacun un fichier contact.html dans le répertoire parent de votre dossier binôme 
  - Le premier <strong>à envoyer ses modifications</strong> a gagné !! 
  - Résoudre le conflit 
- ````
+
+### Tableau des âges :
+      2-5 ans 	 - petit
+      5-8 ans 	 - benjamin
+      8-11 ans 	 - cadet
+      11-13 ans  - junior
+      13-15 ans  - ado
+      15 ans-18  - grand ado
   
 
 
