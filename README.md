@@ -18,7 +18,7 @@ Dépôt pour les activités liés à l'apprentissage de GIT
  - Résoudre le conflit 
 
 ### Tableau des âges :
-      <p>🍔</p>2-5 ans 	 - petit
+      🍔2-5 ans 	 - petit
       5-8 ans 	 - benjamin
       8-11 ans 	 - cadet
       11-13 ans  - junior
