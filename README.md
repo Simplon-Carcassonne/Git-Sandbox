@@ -24,6 +24,8 @@ Dépôt pour les activités liés à l'apprentissage de GIT
       11-13 ans  - junior
       13-15 ans  - ado
       15 ans-18  - grand ado
+      
+![alt desc](https://www.produits-italiens.fr/2285-large_default/biere-blonde-dolomiti.jpg)
   
 
 
