@@ -7,4 +7,9 @@ Dépôt pour les activités liés à l'apprentissage de GIT
 
 ## Exercice 2 : Dual Push
 - Créer chacun un répertoire à votre nom (nom1 et nom2), dans le répertoire parent de votre dossier binôme. <br/>
-- Le premier à envoyer qui <strong>envoie ses modifications</strong> a gagné !!
+- Le premier <strong>à envoyer ses modifications</strong> a gagné !!
+
+## Exercice 3 : Simple Conflict
+- Le dernier envoyer ses modifications doit voir maintenant un message d'erreur ...il y a un conflit à résoudre !!<br/>
+
+
