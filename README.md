@@ -1,3 +1,9 @@
+ <br/>
+ <p align="center" width="300" height="300" >
+  <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png">
+</p>
+<br/>
+
 # Git-Sandbox
 Dépôt pour les activités liés à l'apprentissage de GIT
 
@@ -17,12 +23,5 @@ Dépôt pour les activités liés à l'apprentissage de GIT
  - Le premier <strong>à envoyer ses modifications</strong> a gagné !! 
  - Résoudre le conflit 
  
- 
- <p align="center">
-  <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png">
-</p>
+
       
-![alt desc](https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png)
-  
-
-
