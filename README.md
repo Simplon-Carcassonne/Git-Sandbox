@@ -6,7 +6,7 @@ Dépôt pour les activités liés à l'apprentissage de GIT
 </p>
 <br/>
 
-## Exercice 1 : Bases de GIT
+## `Exercice 1` : Bases de GIT
  - Cloner le dépôt, créer un dossier au nom du binôme (nom1-nom2). Créer dans ce dossier un fichier index.html , et insérer des balises html de votre choix. 
  - Enregistrer les modifications et envoyer sur le dépôt en ligne.
 
