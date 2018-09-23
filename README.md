@@ -1,5 +1,5 @@
 # Git-Sandbox
-Dépôt pour les activités liés à l'apprentissage de GIT
+ > Dépôt pour les activités liés à l'apprentissage de GIT
  <br/>
  <p align="center">
   <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png" width="200" height="200" >
@@ -22,12 +22,7 @@ Dépôt pour les activités liés à l'apprentissage de GIT
  - Le premier <strong>à envoyer ses modifications</strong> a gagné !! 
  - Résoudre le conflit 
  
- > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+
  
 
       
