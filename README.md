@@ -1,4 +1,4 @@
-# Git-Sandbox [![git-version][git-badge]][git-link]
+# Git-Sandbox
  > Dépôt pour les activités liés à l'apprentissage de GIT
  <br/>
  <p align="center">
