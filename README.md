@@ -16,6 +16,11 @@ Dépôt pour les activités liés à l'apprentissage de GIT
  - Créer chacun un fichier contact.html dans le répertoire parent de votre dossier binôme 
  - Le premier <strong>à envoyer ses modifications</strong> a gagné !! 
  - Résoudre le conflit 
+ 
+ 
+ <p align="center">
+  <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png">
+</p>
       
 ![alt desc](https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png)
   
