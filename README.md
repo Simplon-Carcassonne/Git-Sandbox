@@ -1,5 +1,5 @@
  <br/>
- <p align="center" width="200" height="200" >
+ <p align="center">
   <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/thumb_bigger_formation-git.png" width="200" height="200" >
 </p>
 <br/>
