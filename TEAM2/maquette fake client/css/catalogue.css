@@ -1,0 +1,315 @@
+/* Unique au Catalogue */
+
+section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+.filtre {
+    border: 2px solid grey;
+    margin: 3px;
+    padding: 3px 13px;
+    flex: 1 0 5pc;
+    background-color: white;
+}
+
+.filtre h1 {
+    font-size: 18px;
+}
+
+.filtre h2 {
+    font-size: 14px;
+    margin-left: 1pc;
+}
+
+.radio {
+    display: block;
+}
+
+.radio input::before {
+    display: inline-block;
+    content: "";
+    border-radius: 50%;
+    width: 0.9pc;
+    height: 0.9pc;
+    background: var(--color5);
+    box-shadow: 1px 1px 1px var(--color0);
+}
+
+.radio input:checked::before {
+    display: inline-block;
+    content: "";
+    border-radius: 50%;
+    width: 0.5pc;
+    height: 0.5pc;
+    border: 3px solid var(--color5);
+    background: var(--color0);
+}
+
+.check {
+    display: block;
+    position: relative;
+    margin-left: 1.5pc;
+}
+
+.check input::before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--color0);
+    font-weight: 900;
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 13px;
+    height: 13px;
+    background: var(--color5);
+    box-shadow: 1px 1px 1px var(--color0);
+}
+
+.check input:checked::before {
+    content: "\f00c";
+}
+
+
+.slider {
+    display: block;
+    position: relative;
+    text-align: right;
+    line-height: 2em;
+    height: 2em;
+}
+
+.slider::before {
+    content: "";
+    display: block;
+    width: auto;
+    height: 1px;
+    background: var(--color0);
+    margin-top: 0.5pc;
+}
+
+.slider::after {
+    content: "";
+    position: absolute;
+    top: -.5pc;
+    left: 15%;
+    display: block;
+    width: 1pc;
+    height: 1pc;
+    border-radius: 50%;
+    background: var(--color5);
+    border: 1px solid var(--color0);
+    box-shadow: 1px 1px 1px var(--color0);
+}
+
+.liste {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    flex: 7 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-right: 5pc;
+}
+
+.produit {
+    width: 180px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    margin: 3px;
+    padding: 15px;
+    background: var(--color6);
+}
+
+.produit:hover {
+    background: grey;
+}
+
+.produit .img {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    background: var(--color5);
+}
+
+.produit .nom {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.produit .prix {
+    position: absolute;
+    right: 15px;
+    bottom: 2pc;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produit .select {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.produit .select input::before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--color0);
+    font-weight: 900;
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 13px;
+    height: 13px;
+    background: var(--color5);
+    box-shadow: 1px 1px 1px var(--color0);
+}
+
+.produit .select input:checked::before {
+    content: "\f00c";
+}
+
+.reserver {
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    bottom: 7%;
+    right: 1%;
+    background: var(--color4_2);
+    color: var(--color0);
+    font-size: 25px;
+    padding: 8px 12px;
+}
+
+.reserver:hover {
+    background: #A09000;
+}
+
+@media screen and (max-width: 900px) {
+    .reserver {
+        padding: 5px 9px;
+        right: 1%;
+        bottom: 5pc;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Unique au Catalogue mobile */
+
+    body {
+        margin: 0;
+    }
+
+    section {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding-top: 0;
+        padding-left: 3%;
+        padding-right: 5%;
+    }
+
+    .filtre {
+        background: white;
+        margin: 3px;
+        padding: 5px 15px;
+        width: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        flex: 1 0;
+    }
+
+    .trier, .filtrer {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 14px;
+    }
+
+    .filtre .check, .filtre .radio {
+        margin-bottom: 7px;
+        margin-left: 0;
+    }
+
+    .filtrer .sous {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .filtrer .sous div {
+        flex-basis: 5pc;
+    }
+
+    .filtre h2 {
+        margin-left: 0;
+    }
+
+    .liste {
+        /* display: grid; */
+        justify-content: flex-start;
+        grid-template-columns: 300px;
+    }
+
+    .produit {
+        height: 250px;
+        text-align: center;
+        position: relative;
+        margin: 3px;
+        padding: 15px;
+        background: var(--color6);
+    }
+
+    .produit .img {
+        display: inline-block;
+        width: 100%;
+        height: 50%;
+        background: var(--color5);
+    }
+
+    .produit .nom {
+        display: inline-block;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .produit .prix {
+        position: absolute;
+        right: 15px;
+        bottom: 2pc;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .reserver {
+        font-size: 1.3em;
+        padding: 5px 5px;
+        right: 1%;
+    }
+}
