@@ -1,0 +1,60 @@
+.imagehome::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    background: var(--color3);
+    width: 100%;
+    height: 100px;
+    transform: skewY(-4deg);
+    z-index: 100;
+    border-bottom: 2px solid var(--color2);
+}
+
+.imagehome
+{
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+
+
+	animation-name: imagehome;
+	animation-duration: 10s;
+	animation-timing-function: step-start;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+@keyframes imagehome
+{
+	33%{background-image: url("../image/vtt2.jpg"); background-position: 70% top;}
+	66%{background-image: url("../image/contactclientfake.jpg"); background-position: 70% 50%;}
+	100%{background-image: url("../image/vtt.jpg"); background-position: center;}
+
+}
+
+
+.textehome {
+    margin-top: 15px;
+    background: var(--color5);
+    font-size: 1.02em;
+    padding: 15px;
+}
+
+.cta {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: var(--color4_2);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 20px 20px;
+    color: var(--color0);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cta:hover {
+    background: #A09000;
+}
