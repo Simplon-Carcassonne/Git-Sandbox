@@ -11,7 +11,7 @@
  - Enregistrer les modifications et envoyer sur le dépôt en ligne.
 
 ## `Exercice 2 :` Dual Push
- - Créer chacun un répertoire à votre nom (nom1 et nom2), dans le répertoire parent de votre dossier binôme. 
+ - Créer chacun un répertoire à votre nom (nom1 et nom2), dans le répertoire parent de votre dossier binôme. Puis ajouter un fichier index.html DANS VOTRE dossier. 
  - Le premier <strong>à envoyer ses modifications</strong> a gagné !!
 
 ## `Exercice 3 :` Simple Conflict
